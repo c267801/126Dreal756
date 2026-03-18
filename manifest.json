@@ -29,14 +29,14 @@
       "name": "Nuova offerta",
       "short_name": "Offerta",
       "description": "Crea una nuova offerta",
-      "url": "./erp-pwa.html#offerte",
+      "url": "./index.html#offerte",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Tasks",
       "short_name": "Tasks",
       "description": "Visualizza i tasks",
-      "url": "./erp-pwa.html#tasks",
+      "url": "./index.html#tasks",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
   ]

@@ -5,12 +5,12 @@
 //            Network-first per Google Fonts
 // ============================================================
 
-const CACHE_NAME = 'erp-pwa-v1';
+const CACHE_NAME = 'erp-pwa-v2';
 const CACHE_FONT = 'erp-fonts-v1';
 
 // Risorse da mettere in cache al primo avvio
 const STATIC_ASSETS = [
-  './erp-pwa.html',
+  './index.html',
   './manifest.json',
 ];
 
@@ -75,7 +75,7 @@ async function cacheFirst(request) {
     return response;
   } catch {
     // Offline e non in cache: restituisce pagina principale se disponibile
-    const fallback = await caches.match('./erp-pwa.html');
+    const fallback = await caches.match('./index.html');
     return fallback || new Response('Offline — riconnettiti per aggiornare.', {
       status: 503,
       headers: { 'Content-Type': 'text/plain; charset=utf-8' }
