@@ -1,0 +1,722 @@
+{
+  "version": "1.0",
+  "exportDate": "2026-03-18T21:25:09.399126",
+  "clienti": [
+    {
+      "id": "cli001",
+      "ragione": "Marco & Sofia Ferretti",
+      "referente": "Sofia Ferretti",
+      "email": "sofia.ferretti@gmail.com",
+      "tel": "+39 335 1234567",
+      "indirizzo": "Via Roma 14, Milano",
+      "piva": "",
+      "categoria": "A",
+      "stato": "attivo",
+      "note": "Matrimonio in villa, molto attenti ai dettagli. Preferiscono comunicare via email.",
+      "createdAt": "2025-12-18T21:25:09.399126",
+      "updatedAt": "2025-12-18T21:25:09.399126"
+    },
+    {
+      "id": "cli002",
+      "ragione": "Luca & Giulia Mancini",
+      "referente": "Giulia Mancini",
+      "email": "giulia.mancini@libero.it",
+      "tel": "+39 347 9876543",
+      "indirizzo": "Corso Vittorio 22, Torino",
+      "piva": "",
+      "categoria": "B",
+      "stato": "attivo",
+      "note": "Budget contenuto. Cerimonia civile in comune, ricevimento in agriturismo.",
+      "createdAt": "2026-01-17T21:25:09.399126",
+      "updatedAt": "2026-01-17T21:25:09.399126"
+    },
+    {
+      "id": "cli003",
+      "ragione": "Alessandro & Chiara Russo",
+      "referente": "Alessandro Russo",
+      "email": "a.russo@outlook.com",
+      "tel": "+39 320 5551234",
+      "indirizzo": "Via Garibaldi 8, Napoli",
+      "piva": "",
+      "categoria": "A",
+      "stato": "attivo",
+      "note": "Matrimonio destination. Ospiti internazionali. Budget elevato.",
+      "createdAt": "2025-11-18T21:25:09.399126",
+      "updatedAt": "2026-02-16T21:25:09.399126"
+    },
+    {
+      "id": "cli004",
+      "ragione": "Davide & Martina Conti",
+      "referente": "Martina Conti",
+      "email": "martina.conti@gmail.com",
+      "tel": "+39 389 4445566",
+      "indirizzo": "Lungotevere 5, Roma",
+      "piva": "",
+      "categoria": "C",
+      "stato": "attivo",
+      "note": "Primo contatto. In fase di valutazione preventivi.",
+      "createdAt": "2026-03-08T21:25:09.399126",
+      "updatedAt": "2026-03-08T21:25:09.399126"
+    },
+    {
+      "id": "cli005",
+      "ragione": "Filippo & Valentina Serra",
+      "referente": "Valentina Serra",
+      "email": "vale.serra@hotmail.it",
+      "tel": "+39 333 7778899",
+      "indirizzo": "Via Dante 3, Firenze",
+      "piva": "",
+      "categoria": "B",
+      "stato": "inattivo",
+      "note": "Matrimonio rinviato al prossimo anno. Da ricontattare a gennaio.",
+      "createdAt": "2025-08-30T21:25:09.399126",
+      "updatedAt": "2026-02-01T21:25:09.399126"
+    }
+  ],
+  "offerte": [
+    {
+      "id": "off001",
+      "numero": "OFF-2025-001",
+      "clienteId": "cli001",
+      "data": "2025-12-28",
+      "scadenza": "2026-01-27",
+      "oggetto": "Coordinamento completo matrimonio – Villa Belvedere 14 giugno 2025",
+      "stato": "accettata",
+      "note": "Incluso coordinamento il giorno evento, gestione fornitori, timeline dettagliata.",
+      "righe": [
+        {
+          "desc": "Coordinamento e wedding planning (12 mesi)",
+          "fornitoreId": "",
+          "costo": 0,
+          "tipoRicarico": "€",
+          "ricarico": 0,
+          "qta": 1,
+          "nota": "Servizio di coordinamento completo: dalla pianificazione iniziale al giorno del matrimonio, inclusi sopralluoghi, riunioni e gestione fornitori."
+        },
+        {
+          "desc": "Allestimento floreale – Floreria Bloom",
+          "fornitoreId": "for001",
+          "costo": 2800,
+          "tipoRicarico": "%",
+          "ricarico": 25,
+          "qta": 1,
+          "nota": "Allestimento floreale completo: bouquet sposa, addobbi chiesa, centrotavola ricevimento e decorazioni sala."
+        },
+        {
+          "desc": "Fotografia + video – Foto & Cinema Luce",
+          "fornitoreId": "for002",
+          "costo": 2200,
+          "tipoRicarico": "%",
+          "ricarico": 20,
+          "qta": 1,
+          "nota": "Servizio fotografico e video dell'intera giornata. Consegna album fotografico e video montato entro 90 giorni."
+        },
+        {
+          "desc": "Catering – La Delizia (120 ospiti)",
+          "fornitoreId": "for003",
+          "costo": 85,
+          "tipoRicarico": "%",
+          "ricarico": 18,
+          "qta": 120,
+          "nota": "Menu 5 portate con vini selezionati, aperitivo di benvenuto e torta nuziale. Personale di servizio incluso."
+        },
+        {
+          "desc": "DJ Set 6h – Musica & Festa",
+          "fornitoreId": "for004",
+          "costo": 900,
+          "tipoRicarico": "%",
+          "ricarico": 22,
+          "qta": 1,
+          "nota": "Intrattenimento musicale per 6 ore durante il ricevimento. Impianto audio professionale incluso."
+        },
+        {
+          "desc": "Location – Villa Belvedere (esclusiva)",
+          "fornitoreId": "for005",
+          "costo": 3500,
+          "tipoRicarico": "%",
+          "ricarico": 15,
+          "qta": 1,
+          "nota": "Esclusiva della villa per l'intera giornata, giardino e sale interne, parcheggio incluso."
+        },
+        {
+          "desc": "Wedding cake 5 piani – Dolce Momento",
+          "fornitoreId": "for006",
+          "costo": 650,
+          "tipoRicarico": "%",
+          "ricarico": 20,
+          "qta": 1,
+          "nota": "Torta nuziale personalizzata a 5 piani con decorazioni floreali in zucchero. Prova inclusa."
+        }
+      ],
+      "createdAt": "2025-12-28T21:25:09.399126",
+      "updatedAt": "2025-12-28T21:25:09.399126"
+    },
+    {
+      "id": "off002",
+      "numero": "OFF-2025-002",
+      "clienteId": "cli002",
+      "data": "2026-01-22",
+      "scadenza": "2026-02-21",
+      "oggetto": "Coordinamento matrimonio civile – Agriturismo Colle Verde 20 settembre 2025",
+      "stato": "accettata",
+      "note": "Budget ottimizzato. Cerimonia civile esterna, buffet informale.",
+      "righe": [
+        {
+          "desc": "Coordinamento giorno evento",
+          "fornitoreId": "",
+          "costo": 0,
+          "tipoRicarico": "€",
+          "ricarico": 0,
+          "qta": 1,
+          "nota": "Coordinamento completo il giorno del matrimonio: gestione timing, fornitori e ospiti."
+        },
+        {
+          "desc": "Allestimento floreale essenziale – Floreria Bloom",
+          "fornitoreId": "for001",
+          "costo": 900,
+          "tipoRicarico": "%",
+          "ricarico": 25,
+          "qta": 1,
+          "nota": "Bouquet sposa, addobbi cerimonia e centrotavola in stile rustico."
+        },
+        {
+          "desc": "Fotografia – Foto & Cinema Luce",
+          "fornitoreId": "for002",
+          "costo": 1100,
+          "tipoRicarico": "%",
+          "ricarico": 20,
+          "qta": 1,
+          "nota": "Servizio fotografico dell'intera giornata. Galleria digitale entro 60 giorni."
+        },
+        {
+          "desc": "Catering buffet – La Delizia (60 ospiti)",
+          "fornitoreId": "for003",
+          "costo": 55,
+          "tipoRicarico": "%",
+          "ricarico": 18,
+          "qta": 60,
+          "nota": "Buffet pranzo con antipasti, primi, secondi e dessert. Vini e bevande inclusi."
+        }
+      ],
+      "createdAt": "2026-01-22T21:25:09.399126",
+      "updatedAt": "2026-01-22T21:25:09.399126"
+    },
+    {
+      "id": "off003",
+      "numero": "OFF-2025-003",
+      "clienteId": "cli003",
+      "data": "2026-02-21",
+      "scadenza": "2026-03-23",
+      "oggetto": "Destination Wedding – Costiera Amalfitana 12 luglio 2025",
+      "stato": "inviata",
+      "note": "Matrimonio con ospiti internazionali. Necessario coordinamento logistico extra.",
+      "righe": [
+        {
+          "desc": "Wedding planning completo + logistica internazionale",
+          "fornitoreId": "",
+          "costo": 0,
+          "tipoRicarico": "€",
+          "ricarico": 0,
+          "qta": 1,
+          "nota": "Pianificazione e coordinamento completo per matrimonio destination con ospiti internazionali. Include gestione transfer e alloggi."
+        },
+        {
+          "desc": "Allestimento floreale luxury – Floreria Bloom",
+          "fornitoreId": "for001",
+          "costo": 5500,
+          "tipoRicarico": "%",
+          "ricarico": 28,
+          "qta": 1,
+          "nota": "Allestimento floreale di lusso con fiori freschi stagionali. Archi, centrotavola, petali e decorazioni chiesa."
+        },
+        {
+          "desc": "Foto + Video cinematografico – Foto & Cinema Luce",
+          "fornitoreId": "for002",
+          "costo": 4200,
+          "tipoRicarico": "%",
+          "ricarico": 22,
+          "qta": 1,
+          "nota": "Servizio fotografico e video in stile cinematografico. Due fotografi + videomaker. Drone incluso."
+        },
+        {
+          "desc": "Catering gourmet – La Delizia (180 ospiti)",
+          "fornitoreId": "for003",
+          "costo": 120,
+          "tipoRicarico": "%",
+          "ricarico": 20,
+          "qta": 180,
+          "nota": "Cena gourmet 7 portate con abbinamento vini DOC campani. Chef stellato. Personale in smoking."
+        },
+        {
+          "desc": "Orchestra live 4h + DJ – Musica & Festa",
+          "fornitoreId": "for004",
+          "costo": 3800,
+          "tipoRicarico": "%",
+          "ricarico": 22,
+          "qta": 1,
+          "nota": "Orchestra jazz live per aperitivo e cena, DJ set per il dopo cena. Impianto audio premium."
+        },
+        {
+          "desc": "Wedding cake luxury 7 piani – Dolce Momento",
+          "fornitoreId": "for006",
+          "costo": 1400,
+          "tipoRicarico": "%",
+          "ricarico": 20,
+          "qta": 1,
+          "nota": "Torta nuziale luxury a 7 piani con decorazioni in oro alimentare e fiori freschi."
+        }
+      ],
+      "createdAt": "2026-02-21T21:25:09.399126",
+      "updatedAt": "2026-02-21T21:25:09.399126"
+    },
+    {
+      "id": "off004",
+      "numero": "OFF-2025-004",
+      "clienteId": "cli004",
+      "data": "2026-03-10",
+      "scadenza": "2026-04-09",
+      "oggetto": "Primo preventivo – Matrimonio autunnale Roma 2025",
+      "stato": "bozza",
+      "note": "Ancora da definire location e numero ospiti. In attesa di risposta.",
+      "righe": [
+        {
+          "desc": "Coordinamento completo matrimonio",
+          "fornitoreId": "",
+          "costo": 0,
+          "tipoRicarico": "€",
+          "ricarico": 0,
+          "qta": 1,
+          "nota": "Coordinamento dalla pianificazione al giorno evento."
+        },
+        {
+          "desc": "Allestimento floreale – Floreria Bloom",
+          "fornitoreId": "for001",
+          "costo": 1800,
+          "tipoRicarico": "%",
+          "ricarico": 25,
+          "qta": 1,
+          "nota": "Allestimento floreale completo per cerimonia e ricevimento."
+        },
+        {
+          "desc": "Fotografia – Foto & Cinema Luce",
+          "fornitoreId": "for002",
+          "costo": 1500,
+          "tipoRicarico": "%",
+          "ricarico": 20,
+          "qta": 1,
+          "nota": "Servizio fotografico intera giornata."
+        }
+      ],
+      "createdAt": "2026-03-10T21:25:09.399126",
+      "updatedAt": "2026-03-10T21:25:09.399126"
+    }
+  ],
+  "lavorazioni": [
+    {
+      "id": "lav001",
+      "offertaId": "off001",
+      "clienteId": "cli001",
+      "inizio": "2026-01-07",
+      "fine": "2026-04-07",
+      "responsabile": "Giulia Romano",
+      "stato": "in_corso",
+      "note": "Tutto confermato. Sopralluogo villa completato. Riunione finale prevista 7 giorni prima. Lista ospiti 118 persone confermata.",
+      "spese": [
+        {
+          "desc": "Acconto Floreria Bloom",
+          "fornitoreId": "for001",
+          "data": "2026-01-17",
+          "importo": 1400
+        },
+        {
+          "desc": "Acconto Foto & Cinema Luce",
+          "fornitoreId": "for002",
+          "data": "2026-01-22",
+          "importo": 1100
+        },
+        {
+          "desc": "Acconto La Delizia (catering)",
+          "fornitoreId": "for003",
+          "data": "2026-01-27",
+          "importo": 3000
+        },
+        {
+          "desc": "Saldo Villa Belvedere",
+          "fornitoreId": "for005",
+          "data": "2026-02-16",
+          "importo": 3500
+        },
+        {
+          "desc": "Acconto DJ Musica & Festa",
+          "fornitoreId": "for004",
+          "data": "2026-02-26",
+          "importo": 450
+        },
+        {
+          "desc": "Spese trasferta sopralluogo",
+          "fornitoreId": "",
+          "data": "2026-01-12",
+          "importo": 180
+        }
+      ],
+      "createdAt": "2026-01-07T21:25:09.399126",
+      "updatedAt": "2026-03-13T21:25:09.399126"
+    },
+    {
+      "id": "lav002",
+      "offertaId": "off002",
+      "clienteId": "cli002",
+      "inizio": "2026-02-06",
+      "fine": "2026-06-06",
+      "responsabile": "Marco Pellegrini",
+      "stato": "in_corso",
+      "note": "Cerimonia civile confermata. Menu buffet definito. Da confermare allestimento tavoli.",
+      "spese": [
+        {
+          "desc": "Acconto Floreria Bloom",
+          "fornitoreId": "for001",
+          "data": "2026-02-16",
+          "importo": 450
+        },
+        {
+          "desc": "Acconto Foto & Cinema Luce",
+          "fornitoreId": "for002",
+          "data": "2026-02-21",
+          "importo": 550
+        }
+      ],
+      "createdAt": "2026-02-06T21:25:09.399126",
+      "updatedAt": "2026-03-08T21:25:09.399126"
+    }
+  ],
+  "fornitori": [
+    {
+      "id": "for001",
+      "ragione": "Floreria Bloom",
+      "referente": "Anna Verdi",
+      "email": "info@floreriaBloom.it",
+      "tel": "+39 02 1234567",
+      "indirizzo": "Via Fiori 12, Milano",
+      "piva": "IT02345678901",
+      "settore": "Allestimenti floreali",
+      "sito": "https://www.floreriaBloom.it",
+      "instagram": "@floreria_bloom",
+      "categoria": "A",
+      "stato": "attivo",
+      "note": "Affidabile. Consegna sempre puntuale. Sconto 10% su ordini > 2000€.",
+      "createdAt": "2025-05-22T21:25:09.399126",
+      "updatedAt": "2025-05-22T21:25:09.399126"
+    },
+    {
+      "id": "for002",
+      "ragione": "Foto & Cinema Luce",
+      "referente": "Marco Bianchi",
+      "email": "marco@fotoluce.it",
+      "tel": "+39 347 1112233",
+      "indirizzo": "Via della Fotografia 5, Roma",
+      "piva": "IT03456789012",
+      "settore": "Fotografia e video",
+      "sito": "https://www.fotoluce.it",
+      "instagram": "@fotoluce_wedding",
+      "categoria": "A",
+      "stato": "attivo",
+      "note": "Pacchetto foto+video. Consegna album entro 90gg. Molto richiesto, prenotare con anticipo.",
+      "createdAt": "2025-05-22T21:25:09.399126",
+      "updatedAt": "2025-05-22T21:25:09.399126"
+    },
+    {
+      "id": "for003",
+      "ragione": "Catering La Delizia",
+      "referente": "Giuseppe Esposito",
+      "email": "info@ladelizia.it",
+      "tel": "+39 081 9876543",
+      "indirizzo": "Via Napoli 88, Napoli",
+      "piva": "IT04567890123",
+      "settore": "Catering e ristorazione",
+      "sito": "https://www.ladelizia.it",
+      "instagram": "@catering_ladelizia",
+      "categoria": "A",
+      "stato": "attivo",
+      "note": "Menu degustazione 5 portate. Personale incluso. Prezzo per persona.",
+      "createdAt": "2025-05-22T21:25:09.399126",
+      "updatedAt": "2025-05-22T21:25:09.399126"
+    },
+    {
+      "id": "for004",
+      "ragione": "Musica & Festa DJ Service",
+      "referente": "Simone Ricci",
+      "email": "simone@musicaefesta.it",
+      "tel": "+39 333 2223344",
+      "indirizzo": "Via Musica 7, Milano",
+      "piva": "IT05678901234",
+      "settore": "Intrattenimento musicale",
+      "sito": "https://www.musicaefesta.it",
+      "instagram": "@musicaefesta_dj",
+      "categoria": "B",
+      "stato": "attivo",
+      "note": "DJ set 6h incluso impianto. Disponibile anche con orchestra live su richiesta.",
+      "createdAt": "2025-05-22T21:25:09.399126",
+      "updatedAt": "2025-05-22T21:25:09.399126"
+    },
+    {
+      "id": "for005",
+      "ragione": "Villa Belvedere Ricevimenti",
+      "referente": "Laura Fontana",
+      "email": "info@villabelvedere.it",
+      "tel": "+39 055 3334455",
+      "indirizzo": "Via Panoramica 1, Fiesole (FI)",
+      "piva": "IT06789012345",
+      "settore": "Location ricevimenti",
+      "sito": "https://www.villabelvedere.it",
+      "instagram": "@villa_belvedere_fi",
+      "categoria": "A",
+      "stato": "attivo",
+      "note": "Giardino 2000mq. Capienza max 200 ospiti. Parking incluso. Esclusiva giornata.",
+      "createdAt": "2025-05-22T21:25:09.399126",
+      "updatedAt": "2025-05-22T21:25:09.399126"
+    },
+    {
+      "id": "for006",
+      "ragione": "Dolce Momento Torte",
+      "referente": "Paola Moretti",
+      "email": "paola@dolcemomento.it",
+      "tel": "+39 02 5556677",
+      "indirizzo": "Via Pasticceria 3, Milano",
+      "piva": "IT07890123456",
+      "settore": "Wedding cake e dessert",
+      "sito": "https://www.dolcemomento.it",
+      "instagram": "@dolcemomento_cake",
+      "categoria": "B",
+      "stato": "attivo",
+      "note": "Torte personalizzate. Prova degustazione inclusa. Consegna e montaggio in loco.",
+      "createdAt": "2025-05-22T21:25:09.399126",
+      "updatedAt": "2025-05-22T21:25:09.399126"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk001",
+      "titolo": "Chiamare Floreria Bloom per conferma colori",
+      "stato": "aperto",
+      "priorita": "alta",
+      "scadenza": "2026-03-20",
+      "note": "Ferretti: confermare palette crema e borgogna",
+      "createdAt": "2026-03-18T21:25:09.399126"
+    },
+    {
+      "id": "tsk002",
+      "titolo": "Inviare timeline definitiva a Villa Belvedere",
+      "stato": "aperto",
+      "priorita": "alta",
+      "scadenza": "2026-03-23",
+      "note": "Allegare lista fornitori con orari di accesso",
+      "createdAt": "2026-03-18T21:25:09.399126"
+    },
+    {
+      "id": "tsk003",
+      "titolo": "Confermare menu degustazione con La Delizia",
+      "stato": "aperto",
+      "priorita": "media",
+      "scadenza": "2026-03-28",
+      "note": "Verificare opzioni vegetariane per 12 ospiti",
+      "createdAt": "2026-03-18T21:25:09.399126"
+    },
+    {
+      "id": "tsk004",
+      "titolo": "Richiedere preventivo noleggio limousine",
+      "stato": "aperto",
+      "priorita": "bassa",
+      "scadenza": "2026-04-02",
+      "note": "Per Mancini – transfer sposi dalla chiesa",
+      "createdAt": "2026-03-18T21:25:09.399126"
+    },
+    {
+      "id": "tsk005",
+      "titolo": "Riunione con Russo per conferma lista ospiti",
+      "stato": "aperto",
+      "priorita": "alta",
+      "scadenza": "2026-03-21",
+      "note": "Destination wedding – ospiti internazionali da coordinare",
+      "createdAt": "2026-03-18T21:25:09.399126"
+    },
+    {
+      "id": "tsk006",
+      "titolo": "Saldo acconto Dolce Momento torta Ferretti",
+      "stato": "completato",
+      "priorita": "alta",
+      "scadenza": "2026-03-13",
+      "note": "Bonifico inviato il 12/05",
+      "createdAt": "2026-02-26T21:25:09.399126"
+    },
+    {
+      "id": "tsk007",
+      "titolo": "Sopralluogo agriturismo Colle Verde",
+      "stato": "completato",
+      "priorita": "media",
+      "scadenza": "2026-03-03",
+      "note": "Completato. Note: parcheggio limitato, shuttle necessario",
+      "createdAt": "2026-02-11T21:25:09.399126"
+    },
+    {
+      "id": "tsk008",
+      "titolo": "Inviare offerta a Conti per feedback",
+      "stato": "aperto",
+      "priorita": "media",
+      "scadenza": "2026-03-25",
+      "note": "Prima bozza già inviata. Attendere risposta.",
+      "createdAt": "2026-03-10T21:25:09.399126"
+    }
+  ],
+  "ordini": [
+    {
+      "id": "ord001",
+      "offertaId": "off001",
+      "fornitoreId": "for001",
+      "numeroOfferta": "OFF-2025-001",
+      "clienteId": "cli001",
+      "righe": [
+        {
+          "desc": "Allestimento floreale – Floreria Bloom",
+          "fornitoreId": "for001",
+          "costo": 2800,
+          "tipoRicarico": "%",
+          "ricarico": 25,
+          "qta": 1,
+          "nota": "Allestimento floreale completo: bouquet sposa, addobbi chiesa, centrotavola ricevimento e decorazioni sala."
+        }
+      ],
+      "totale": 2800,
+      "stato": "confermato",
+      "note": "Palette crema e borgogna. Consegna il 14/06 dalle 8:00.",
+      "riferimento": "BL-2025-047",
+      "createdAt": "2026-01-07T21:25:09.399126",
+      "updatedAt": "2026-01-07T21:25:09.399126"
+    },
+    {
+      "id": "ord002",
+      "offertaId": "off001",
+      "fornitoreId": "for002",
+      "numeroOfferta": "OFF-2025-001",
+      "clienteId": "cli001",
+      "righe": [
+        {
+          "desc": "Fotografia + video – Foto & Cinema Luce",
+          "fornitoreId": "for002",
+          "costo": 2200,
+          "tipoRicarico": "%",
+          "ricarico": 20,
+          "qta": 1,
+          "nota": "Servizio fotografico e video dell'intera giornata. Consegna album fotografico e video montato entro 90 giorni."
+        }
+      ],
+      "totale": 2200,
+      "stato": "confermato",
+      "note": "2 fotografi + 1 videomaker. Arrivo h 9:00.",
+      "riferimento": "FL-2025-112",
+      "createdAt": "2026-01-07T21:25:09.399126",
+      "updatedAt": "2026-01-07T21:25:09.399126"
+    },
+    {
+      "id": "ord003",
+      "offertaId": "off001",
+      "fornitoreId": "for003",
+      "numeroOfferta": "OFF-2025-001",
+      "clienteId": "cli001",
+      "righe": [
+        {
+          "desc": "Catering – La Delizia (120 ospiti)",
+          "fornitoreId": "for003",
+          "costo": 85,
+          "tipoRicarico": "%",
+          "ricarico": 18,
+          "qta": 120,
+          "nota": "Menu 5 portate con vini selezionati, aperitivo di benvenuto e torta nuziale. Personale di servizio incluso."
+        }
+      ],
+      "totale": 10200,
+      "stato": "confermato",
+      "note": "120 ospiti confermati. Menu definitivo allegato.",
+      "riferimento": "DL-2025-089",
+      "createdAt": "2026-01-07T21:25:09.399126",
+      "updatedAt": "2026-01-07T21:25:09.399126"
+    },
+    {
+      "id": "ord004",
+      "offertaId": "off001",
+      "fornitoreId": "for004",
+      "numeroOfferta": "OFF-2025-001",
+      "clienteId": "cli001",
+      "righe": [
+        {
+          "desc": "DJ Set 6h – Musica & Festa",
+          "fornitoreId": "for004",
+          "costo": 900,
+          "tipoRicarico": "%",
+          "ricarico": 22,
+          "qta": 1,
+          "nota": "Intrattenimento musicale per 6 ore durante il ricevimento. Impianto audio professionale incluso."
+        }
+      ],
+      "totale": 900,
+      "stato": "inviato",
+      "note": "DJ set 20:00-02:00. Playlist da concordare.",
+      "riferimento": "",
+      "createdAt": "2026-01-07T21:25:09.399126",
+      "updatedAt": "2026-01-07T21:25:09.399126"
+    },
+    {
+      "id": "ord005",
+      "offertaId": "off002",
+      "fornitoreId": "for001",
+      "numeroOfferta": "OFF-2025-002",
+      "clienteId": "cli002",
+      "righe": [
+        {
+          "desc": "Allestimento floreale essenziale – Floreria Bloom",
+          "fornitoreId": "for001",
+          "costo": 900,
+          "tipoRicarico": "%",
+          "ricarico": 25,
+          "qta": 1,
+          "nota": "Bouquet sposa, addobbi cerimonia e centrotavola in stile rustico."
+        }
+      ],
+      "totale": 900,
+      "stato": "inviato",
+      "note": "Stile rustico. Centrotavola con lavanda e girasoli.",
+      "riferimento": "",
+      "createdAt": "2026-02-06T21:25:09.399126",
+      "updatedAt": "2026-02-06T21:25:09.399126"
+    },
+    {
+      "id": "ord006",
+      "offertaId": "off002",
+      "fornitoreId": "for002",
+      "numeroOfferta": "OFF-2025-002",
+      "clienteId": "cli002",
+      "righe": [
+        {
+          "desc": "Fotografia – Foto & Cinema Luce",
+          "fornitoreId": "for002",
+          "costo": 1100,
+          "tipoRicarico": "%",
+          "ricarico": 20,
+          "qta": 1,
+          "nota": "Servizio fotografico dell'intera giornata. Galleria digitale entro 60 giorni."
+        }
+      ],
+      "totale": 1100,
+      "stato": "da_inviare",
+      "note": "",
+      "riferimento": "",
+      "createdAt": "2026-02-06T21:25:09.399126",
+      "updatedAt": "2026-02-06T21:25:09.399126"
+    }
+  ],
+  "impostazioni": {
+    "azienda": "Wedding Studio Eleganza",
+    "prefisso": "OFF",
+    "validita": 30,
+    "avviso": 10
+  }
+}
