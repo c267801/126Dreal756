@@ -2,7 +2,7 @@
   "name": "ERP Gestionale",
   "short_name": "ERP",
   "description": "Gestionale PWA per clienti, offerte, lavorazioni e tasks",
-  "start_url": "./erp-pwa.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
